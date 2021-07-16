@@ -1,0 +1,10 @@
+git+https://github.com/AGrigis/pysphinxdoc.git
+ipython
+numpy>=1.17.1
+scipy>=0.19.1
+requests>=2.9.1
+nibabel>=2.4.0
+statsmodels>=0.11.1
+torch>=1.8.1
+torchvision>=0.9.1
+sphinx==2.2.1
