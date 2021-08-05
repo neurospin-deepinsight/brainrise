@@ -25,6 +25,22 @@ brainrise: Brain MRI Data Augmentation for PyTorch
 
 PyTorch toolbox with common brain MRI data augmentation methods.
 
+.. code::
+
+  @article{perez2021torchio,
+        title = {TorchIO: a Python library for efficient loading, preprocessing, augmentation and patch-based sampling of medical images in deep learning},
+        author = {P{\'e}rez-Garc{\'i}a, Fernando and Sparks, Rachel and Ourselin, S{\'e}bastien},
+        journal = {Computer Methods and Programs in Biomedicine},
+        year = {2021},
+  }
+
+  @inproceedings{reinhold2019intensitynorm,
+        title={Evaluating the impact of intensity normalization on {MR} image synthesis},
+        author={Reinhold, Jacob C and Dewey, Blake E and Carass, Aaron and Prince, Jerry L},
+        booktitle={Medical Imaging 2019: Image Processing},
+        year={2019}
+  } 
+
 This work is made available by a `community of people
 <https://github.com/neurospin-deepinsight/brainrise/blob/master/AUTHORS.rst>`_, amoung which the
 CEA Neurospin BAOBAB laboratory.
