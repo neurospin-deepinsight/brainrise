@@ -77,7 +77,7 @@ class MRIToyDataset(Dataset):
                         response.raw.decode_content = False
                         shutil.copyfileobj(response.raw, out_file)
                     del response
-                dataset[name] = nibabel.load(path).get_data()
+                dataset[name] = nibabel.load(path).get_fdata()
 
             # Save dataset
             np.savez(self.data_file, **dataset)
